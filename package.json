@@ -4,11 +4,15 @@
   "description": "source code for kelseywerner.com",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Kelsey Werner",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3"
+  },
+  "engines": {
+    "node": "8.9.4"
   }
 }
